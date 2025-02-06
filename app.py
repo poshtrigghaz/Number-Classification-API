@@ -2,6 +2,8 @@ from flask import Flask, request, jsonify
 from urllib.parse import quote
 import requests
 import math
+import os
+
 
 app = Flask(__name__)
 
@@ -81,4 +83,4 @@ def after_request(response):
     return response
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
+     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
