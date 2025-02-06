@@ -10,7 +10,7 @@ gunicorn==23.0.0
 idna==2.6
 itsdangerous==1.1.0
 Jinja2==2.11.2
-MarkupSafe==2.1.5
+MarkupSafe==2.0.1
 numpy==1.26.4
 packaging==24.2
 pycodestyle==2.6.0
@@ -19,4 +19,3 @@ requests==2.18.4
 six==1.16.0
 urllib3==1.22
 Werkzeug==1.0.1
-markupsafe==2.0.1
