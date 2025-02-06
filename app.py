@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from urllib.parse import quote
 import requests
 import math
 
